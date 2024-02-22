@@ -1,41 +1,62 @@
-## Textile App Prototype for ERPNext
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Textile App Logo" />
+  <p>
+    A user-centric application that simplifies and optimizes textile manufacturing processes.
+    <br />
+    <a href="https://grow.empress.eco/"><strong>Explore the Docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/empress-eco/textile/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/textile/issues">Request Feature</a>
+  </p>
+</div>
 
-The Textile App for is manufacturing workspace for [ERPNext](https://github.com/frappe/erpnext) that adds customizations for the textile manufacturing process.
+## About The Project
 
-The app workflow and design principle puts the user first, where only minimal user input is is required to ensure that production process and stock levels stay in sync in real-time. The app is in active development, and not ready for use in production environments.
+Textile App for Empress is a dynamic manufacturing workspace designed to enhance the textile production process. It is ideal for textile manufacturers seeking a solution that minimizes user input while maintaining real-time synchronization of production and stock levels.
 
-## Features 🎁
+### Key Features
 
-### 1. Digital printing on textiles 🖨️ (developed, in optimization phase)
-Adds a new **Print Order** Doctype for roll-to-roll printing.
-- Create print orders for both repeats (seamless or rapport designs) and panels (with gaps between each panel).
-- Automatically calculate print length based on design file dimensions, gaps, and required quantity.
-- Automatically calculate fabric required based on above considerations and definable process wastage.
-- Allows for choosing primary quantity based on fabric length or design length.
-- Directly see production quantity on item level: printed quantity, packed quantity and delivered quantity.
-- Accomodates for unprinted areas in printing head and tail.
+- Customizable Print Order Doctype for roll-to-roll printing.
+- Automatic calculations for print and fabric requirements.
+- Unique BOM concept for precise stock consumptions.
+- Process steps for pre-treatment of greige fabrics.
+- Future plans for piece goods and yarn manufacturing.
 
-Unique BOM concept for highly accurate stock consumptions.
-- Flexible BOM's for reactive/disperse/pigment (based on linear-meters, area and weight), and sublimation (based on linear-meters and area).
-- BOM's with drop-down on Print Order level to allow recipe selections at each step, e.g. coating and finishing.
-- Smart BOM's for sublimation to ensure right papers are pre-selected based on fabric width.
+### Built With
 
-### 2. Greige fabric pre-treatment ☀️  (in early development phase) 
-Process steps for pre-treatment of greige fabrics: singeing, desizing, scouring, bleaching and washing.
-- Independent BOM's for each process step.
-- Accruate WIP stock for each process step.
+- [Empress](https://github.com/Empress/Empress)
 
-## Roadmap & Wishlist ✨
-- Extensive testing
-- Piece goods manufacturing 👚 (planned for 2023)
--- Drag-and-drop production re-scheduling tool
-- Yarn manufacturing 🧵 (planned for 2024)
+## Getting Started
 
-## Support 🤗
-Please contact us for any support or other inquiries via our website https://paralogic.io.
+Currently, the app is in active development and is not suitable for production environments.
 
-## Contributing 🤝
-You can fork this repository and create a pull request to contribute code. By contributing to Textile App for ERPNext, you agree that your contributions will be licensed under its GNU General Public License (v3). 
+### Installation
 
-## GNU/General Public License 
-The ERPNext Pakistan Workspace code is licensed as GNU General Public License (v3) and the copyright is owned by ParaLogic and Contributors (see [license.txt](license.txt)).
+To get the app running, clone the repository using the following command:
+
+```sh
+git clone https://github.com/empress-eco/textile.git
+```
+## Usage
+
+The app allows for creating print orders for both repeats and panels, automatic calculation of print and fabric requirements, and flexible BOM's for reactive/disperse/pigment and sublimation, among other features.
+
+## Contributing
+
+We appreciate your contributions! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. Your contributions will also be licensed under the MIT License.
+
+## Acknowledgements
+
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
